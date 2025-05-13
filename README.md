@@ -1,2 +1,130 @@
-# tcbmxracing.github.io
-Inicio
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>"Readme"Time Capixaba de BMX</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #007acc;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 8px;
+    }
+
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .team-member {
+      width: 30%;
+      margin: 10px;
+      text-align: center;
+    }
+
+    .team-member img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    .contact a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      margin: 10px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Time Capixaba de BMX</h1>
+    <p>Representando o espírito esportivo e a paixão pelo BMX!</p>
+  </header>
+
+  <!-- Sobre -->
+  <section>
+    <h2>Sobre o Time</h2>
+    <p>O Time Capixaba de BMX é formado por atletas dedicados e apaixonados pela modalidade. Nosso objetivo é promover o esporte e levar o nome do Espírito Santo para o pódio nas principais competições do Brasil e do mundo.</p>
+  </section>
+
+  <!-- Equipe -->
+  <section>
+    <h2>Nosso Time</h2>
+    <div class="team">
+      <div class="team-member">
+        <img src="https://via.placeholder.com/150" alt="Atleta 1">
+        <h3>Atleta 1</h3>
+        <p>Categoria: Elite</p>
+      </div>
+      <div class="team-member">
+        <img src="https://via.placeholder.com/150" alt="Atleta 2">
+        <h3>Atleta 2</h3>
+        <p>Categoria: Júnior</p>
+      </div>
+      <div class="team-member">
+        <img src="https://via.placeholder.com/150" alt="Atleta 3">
+        <h3>Atleta 3</h3>
+        <p>Categoria: Iniciante</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Calendário -->
+  <section>
+    <h2>Calendário de Competições</h2>
+    <p>Confira as próximas competições do Time Capixaba de BMX:</p>
+    <ul>
+      <li>Competição Nacional - 15 de Junho</li>
+      <li>Campeonato Estadual - 30 de Julho</li>
+      <li>Campeonato Internacional - 10 de Outubro</li>
+    </ul>
+  </section>
+
+  <!-- Contato -->
+  <section class="contact">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco para mais informações sobre o time e eventos.</p>
+    <p>Email: <a href="mailto:contato@timecapixaba.com">contato@timecapixaba.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/timecapixaba" target="_blank">@timecapixaba</a></p>
+  </section>
+
+  <!-- Galeria -->
+  <section class="gallery">
+    <h2>Galeria de Imagens</h2>
+    <img src="https://via.placeholder.com/600x400" alt="Imagem de treino">
+    <img src="https://via.placeholder.com/600x400" alt="Campeonato">
+    <img src="https://via.placeholder.com/600x400" alt="Equipe no pódio">
+  </section>
+
+</body>
+</html>
